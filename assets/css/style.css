@@ -423,6 +423,40 @@ ul { list-style: none; }
 .route-link:hover { color: var(--gl-green-mid); gap: 11px; }
 .route-link i { transition: transform .18s ease; }
 
+/* ---------- Locations ---------- */
+.locations-section { background: #fff; }
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.location-card {
+    background: #fff; border: 1px solid var(--gl-line);
+    border-radius: var(--gl-radius-lg); overflow: hidden;
+    box-shadow: var(--gl-shadow);
+    transition: transform .22s ease, box-shadow .22s ease;
+    padding: 36px 28px;
+    text-align: center;
+}
+.location-card:hover { transform: translateY(-6px); box-shadow: 0 22px 46px rgba(6, 52, 31, 0.14); }
+.location-icon {
+    width: 64px; height: 64px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 27px; color: var(--gl-green-mid);
+    background: rgba(14, 158, 77, 0.1);
+    margin: 0 auto 18px;
+}
+.location-name {
+    font-size: 22px; font-weight: 800; margin-bottom: 8px;
+    color: var(--gl-ink);
+}
+.location-coords {
+    color: var(--gl-muted); font-size: 14px; font-family: monospace;
+    margin-bottom: 24px;
+}
+
 /* ---------- Footer ---------- */
 .site-footer { background: linear-gradient(160deg, #041f12, #06341f 60%, #0a4a2c); color: rgba(255,255,255,.82); }
 .footer-grid {
