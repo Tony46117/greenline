@@ -1,9 +1,8 @@
 # GreenLine Royal — Buses
 
-An improved front-end for [greenlineroyal.com/bus](https://greenlineroyal.com/bus/) — a luxury bus
-ticketing site covering Kenya and Uganda.
+The official website for GreenLine Royal — a luxury bus ticketing company covering Kenya and Uganda.
 
-## What's improved
+## Features
 
 - 🚌 **Video hero** — a bus-departing station animation plays as the site's opening, layered over the
   Greenline bus background picture (muted, looping, respects `prefers-reduced-motion`).

@@ -238,11 +238,13 @@
             if (pickup && dest && pickup === dest) { errors.push('Pickup and destination cannot be the same.'); }
             if (!date) { errors.push('Please select a travel date.'); if (dateField) dateField.classList.add('has-error'); }
 
+            e.preventDefault();
             if (errors.length) {
-                e.preventDefault();
                 if (errorsBox) {
                     errorsBox.innerHTML = errors.map(function (er) { return '<div class="gl-form-error">' + glEscapeHtml(er) + '</div>'; }).join('');
                 }
+            } else if (errorsBox) {
+                errorsBox.innerHTML = '<div class="gl-form-ok">Online booking is coming soon — call <a href="tel:+254798546817">+254798546817</a> or WhatsApp us to reserve your seat.</div>';
             }
         });
     }
