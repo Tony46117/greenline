@@ -244,7 +244,7 @@
                     errorsBox.innerHTML = errors.map(function (er) { return '<div class="gl-form-error">' + glEscapeHtml(er) + '</div>'; }).join('');
                 }
             } else if (errorsBox) {
-                errorsBox.innerHTML = '<div class="gl-form-ok">Online booking is coming soon — call <a href="tel:+254798546817">+254798546817</a> or WhatsApp us to reserve your seat.</div>';
+                errorsBox.innerHTML = '<div class="gl-form-ok">Online booking is coming soon — call <a href="tel:+254707232167">+254707232167</a> or WhatsApp us to reserve your seat.</div>';
             }
         });
     }
