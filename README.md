@@ -28,6 +28,6 @@ python3 -m http.server 8090
 
 ## Contacts
 
-- 📞 +254707232167
+- 📞 +254 707 232167
 - ✉️ greenlinecompany22@gmail.com
 - 📍 Shephard Arcade Building, P.O Box 3034, Kitale
